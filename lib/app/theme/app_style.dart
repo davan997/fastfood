@@ -272,6 +272,62 @@ final typoVietNamProBold26 = GoogleFonts.beVietnamPro(
   color: Colors.black,
 );
 
+final typoVietNamProMetropolis13 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w700,
+  fontSize: 13,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProMetropolis15 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w700,
+  fontSize: 15,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProMetropolis17 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w600,
+  fontSize: 17,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProMetropolis18 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w400,
+  fontSize: 18,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProMetropolis20w400 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w400,
+  fontSize: 20,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProMetropolis20w700 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w700,
+  fontSize: 20,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProMetropolis28 = GoogleFonts.metrophobic(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w700,
+  fontSize: 28,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
 final typoVietNamProMetropolis40 = GoogleFonts.metrophobic(
   fontStyle: FontStyle.normal,
   fontWeight: FontWeight.w100,
@@ -284,6 +340,14 @@ final typoVietNamProMetropolis55 = GoogleFonts.metrophobic(
   fontStyle: FontStyle.normal,
   fontWeight: FontWeight.w100,
   fontSize: 55,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProPoppins13 = GoogleFonts.poppins(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w500,
+  fontSize: 13,
   letterSpacing: 1,
   color: Colors.black,
 );
@@ -320,6 +384,14 @@ final typoVietNamProPoppins20 = GoogleFonts.poppins(
   color: Colors.black,
 );
 
+final typoVietNamProPoppins22 = GoogleFonts.poppins(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w600,
+  fontSize: 22,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
 final typoVietNamProNunito16w400 = GoogleFonts.nunito(
   fontStyle: FontStyle.normal,
   fontWeight: FontWeight.w400,
@@ -332,6 +404,38 @@ final typoVietNamProNunito36w700 = GoogleFonts.nunito(
   fontStyle: FontStyle.normal,
   fontWeight: FontWeight.w700,
   fontSize: 36,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProRoboto13 = GoogleFonts.roboto(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w500,
+  fontSize: 13,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProRoboto14w300 = GoogleFonts.roboto(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w300,
+  fontSize: 14,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProRoboto14w400 = GoogleFonts.roboto(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w400,
+  fontSize: 14,
+  letterSpacing: 1,
+  color: Colors.black,
+);
+
+final typoVietNamProRoboto16 = GoogleFonts.roboto(
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.w400,
+  fontSize: 16,
   letterSpacing: 1,
   color: Colors.black,
 );

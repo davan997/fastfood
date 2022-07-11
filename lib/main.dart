@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:study_bloc/app/bloc/cart_bloc.dart';
 import 'package:study_bloc/app/bloc/login_bloc.dart';
 import 'package:study_bloc/app/bloc/onboarding_bloc.dart';
-import 'package:study_bloc/app/router/router.dart';
 import 'package:study_bloc/app/view/cart_view.dart';
 import 'package:study_bloc/app/view/center_app.dart';
+import 'package:study_bloc/app/view/favorite_view.dart';
 import 'package:study_bloc/app/view/login_view.dart';
 import 'package:study_bloc/app/view/onboarding_view.dart';
 
@@ -25,6 +26,7 @@ class _MyApp extends State<MyApp> {
       providers: [
         BlocProvider<OnBoardingBloc>(create: (context) => OnBoardingBloc()),
         BlocProvider<LoginBloc>(create: (context) => LoginBloc()),
+        BlocProvider<CartBloc>(create: (context) => CartBloc())
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -33,12 +35,15 @@ class _MyApp extends State<MyApp> {
           Locale("en", ""),
           Locale("vn", ""),
         ],
-        initialRoute: Routers.onBoardingView,
+        initialRoute: '/onboarding-view',
         routes: {
-          Routers.onBoardingView: (context) => const OnBoarding(),
-          Routers.loginView: (context) => const LoginView(),
-          Routers.centerApp: (context) => const CenterApp(),
-          Routers.cartView: (context) => const CartPage(),
+          '/onboarding-view': (context) => const OnBoarding(),
+          '/login-view': (context) => const LoginView(),
+          '/center-app': (context) => const CenterApp(),
+          '/cart-view': (context) => const CartPage(),
+          '/favorite-view': (context) => const FavoritePage(),
+          '/home-view': (context) => const CartPage(),
+          '/personal-view': (context) => const CartPage(),
         },
       ),
     );

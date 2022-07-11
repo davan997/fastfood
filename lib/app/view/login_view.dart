@@ -9,7 +9,6 @@ import 'package:study_bloc/app/event/login_event.dart';
 import 'package:study_bloc/app/state/login_state.dart';
 import 'package:study_bloc/app/theme/app_style.dart';
 import 'package:study_bloc/app/theme/color.dart';
-import 'package:study_bloc/app/view/center_app.dart';
 import 'package:study_bloc/generated/resource.dart';
 
 class LoginView extends StatelessWidget {
@@ -76,7 +75,7 @@ class LoginView extends StatelessWidget {
                                 viewRegister(context, state, loginBloc),
                               ],
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),
@@ -172,12 +171,7 @@ Container viewLogin(BuildContext context, LoginState state, LoginBloc loginBloc)
           margin: const EdgeInsets.only(top: 25, bottom: 15),
           child: ElevatedButton(
             onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: ((context) => const CenterApp()),
-                ),
-              );
+              loginBloc.add(SubmitLoginEvent(context, state.phoneNumber, state.password));
             },
             style: ElevatedButton.styleFrom(
                 elevation: 0,
